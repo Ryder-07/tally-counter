@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="STYLES.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-[100vh] w-full flex justify-center items-center bg-gray-200">
+    <div 
+      class="h-[500px] w-[250px] border-[0px] bg-white rounded-[25px] flex flex-col overflow-hidden box-shadow: 5px 10px 2px 0 rgb(0 0 0 / 0.05);"
+    >
+      <div class="bg-[rgb(109,81,232)] h-[100px] flex">
+        <div
+          class="h-[100%] w-[20%] flex justify-center text-white mt-[20px] text-[1.5rem]"
+        >
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div
+          class="flex justify-center items-center h-[100%] w-[70%] text-white font-[700] text-[1.2rem] mt-[10px]"
+        >
+          TALLY COUNTER
+        </div>
+      </div>
+      <div class="container h-[100px]">
+        <div class="reset h-[50px] w-[125px] p-[10px]">
+          <button
+            class="border-[2px] h-[40px] w-[100px] rounded-[10px] border-[rgb(109,81,232)] outline-none text-[rgb(109,81,232)]"
+          >
+            RESET
+          </button>
+        </div>
+        <div class="increment h-[50px] w-[125px] p-[10px]">
+          <button
+            class="border-[2px] h-[40px] w-[100px] rounded-[10px] border-[rgb(109,81,232)] outline-none text-[rgb(109,81,232)]"
+          >
+            INCREMENT
+          </button>
+        </div>
+        <div class="set-count h-[50px] w-[125px] p-[10px]">
+          <button
+            class="border-[2px] h-[40px] w-[100px] rounded-[10px] border-[rgb(109,81,232)] outline-none text-[rgb(109,81,232)]"
+          >
+            SET COUNT
+          </button>
+        </div>
+      </div>
+      <div class="h-[200px] w-[100%] text-[rgb(109,81,232)] text-[8rem] flex justify-center items-center">
+        0
+      </div>
+      <div class="h-[100px] w-[100%] flex">
+        <div class="h-[100%] w-[50%] flex justify-center items center">
+          <button
+            class="h-[70px] w-[70px] border-[0px] rounded-[50%] bg-[rgb(109,81,232)] text-[3rem] flex justify-center items-center text-white"
+          >-</button>
+        </div>
+        <div class="h-[100%] w-[50%] flex justify-center items center">
+          <button
+            class="h-[70px] w-[70px] border-[0px] rounded-[50%] bg-[rgb(109,81,232)] text-[3rem] flex justify-center items-center text-white"
+          >+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
